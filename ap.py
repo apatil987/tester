@@ -1,5 +1,5 @@
-import yfinance as yf
 import streamlit as st
+import yfinance as yf
 
 tickerSymbol = st.text_input('Symbol','GOOGL')
 tickerData = yf.Ticker(tickerSymbol)
